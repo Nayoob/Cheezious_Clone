@@ -1,0 +1,1412 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    /* background-color: #ffffff; */
+    
+}
+.navbar{
+    height:82px;
+    width:100%;
+    background-color: #FFCB04;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    gap:150px; 
+    flex-wrap: nowrap;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.belowcarousal1 {
+    height:60px;
+    margin:0 auto ;
+    width:1050px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
+}
+.button1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width:100px;
+    border-radius:40px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight:700;
+    background-color: #FFCB04;
+    cursor: pointer;
+    
+}
+
+.button2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width:140px;
+    border-radius:40px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight:700;
+    background-color:#D3D3D3;
+    cursor: pointer;
+    transition: 0.4s ease;
+    &:hover{
+        background-color: #FFCB04;
+    }
+}
+.button3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width:140px;
+    border-radius:40px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight:700;
+    background-color:#D3D3D3;
+    cursor: pointer;
+    transition: 0.4s ease;
+    &:hover{
+        background-color: #FFCB04;
+    }
+}
+.button4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width:120px;
+    border-radius:40px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight:700;
+    background-color:#D3D3D3;
+    cursor: pointer;
+    transition: 0.4s ease;
+    &:hover{
+        background-color: #FFCB04;
+    }
+}
+.button5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width:120px;
+    border-radius:40px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight:700;
+    background-color:#D3D3D3;
+    cursor: pointer;
+    transition: 0.4s ease;
+    &:hover{
+        background-color: #FFCB04;
+    }
+}
+.button6{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width:200px;
+    border-radius:40px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight:700;
+    background-color:#D3D3D3;
+    cursor: pointer;
+    transition: 0.4s ease;
+    &:hover{
+        background-color: #FFCB04;
+    }
+}
+.belowcarousal2{
+    height:60px;
+    margin:0 auto ;
+    width:1050px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.belowcarousal2 .button1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width:120px;
+    border-radius:40px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight:700;
+    background-color:#D3D3D3;
+    cursor: pointer;
+    transition: 0.4s ease;
+    &:hover{
+        background-color: #FFCB04;
+    }
+}
+.belowcarousal2 .button2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width:160px;
+    border-radius:40px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight:700;
+    background-color:#D3D3D3;
+    transition: 0.4s ease;
+    &:hover{
+        background-color: #FFCB04;
+    }
+}
+.belowcarousal2 .button3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width:90px;
+    border-radius:40px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight:700;
+    background-color:#D3D3D3;
+    transition: 0.4s ease;
+    &:hover{
+        background-color: #FFCB04;
+    }
+}
+.belowcarousal2 .button4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width:90px;
+    border-radius:40px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight:700;
+    background-color:#D3D3D3;
+    transition: 0.4s ease;
+    &:hover{
+        background-color: #FFCB04;
+    }
+}
+.belowcarousal2 .button5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width:100px;
+    border-radius:40px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight:700;
+    background-color:#D3D3D3;
+    transition: 0.4s ease;
+    &:hover{
+        background-color: #FFCB04;
+    }
+}
+.belowcarousal2 .button6{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+    width:90px;
+    border-radius:40px;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight:700;
+    background-color:#D3D3D3;
+    transition: 0.4s ease;
+    &:hover{
+        background-color: #FFCB04;
+    }
+}
+.startersheading{
+    height:50px;
+    width:1050px;
+    margin:40px auto;
+    /* border:2px solid red; */
+    display:flex;
+    align-items:center;
+    font-family: poppins;
+    font-size: x-large;
+    font-weight: 700;
+    margin-top:20px;
+}
+.startersmenu{
+    height:410px;
+    margin:10px auto;
+    width:1050px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
+}
+/* --------------------------------------- card 1 css -------------------------- */
+.startersmenu .card1{
+    height:420px;
+    width:250px;
+    border:3px solid #D3D3D3;
+    border-radius: 20px;
+    background-color: #ffffff;
+    &:hover{
+        border-color: #FFCB04;
+    }
+    
+}
+.startersmenu .card1 .imgdiv{
+    height:225px;
+    width:248px;
+}
+.startersmenu .card1 .imgdiv img{
+    height:225px;
+    width:235px;
+    margin:5px;
+    border-radius: 10px;;
+}
+.startersmenu  .card1 .contentdiv .headingdiv{
+    height:25px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: medium;
+}
+.startersmenu  .card1 .contentdiv .paradiv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    /* font-weight: 700; */
+    font-size: smaller;
+   
+}
+.startersmenu  .card1 .pricediv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    font-family: poppins;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-weight: 750;
+}
+.startersmenu  .card1 .buttondiv{
+    height:45px;
+    width:120px;
+    /* border:1px solid red; */
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.startersmenu  .card1 .buttondiv button{
+    height:45px;
+    width:120px;
+    border-radius:30px;
+    background-color: rgb(203, 36, 36);
+    color:white;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: 700;
+    border: 1px solid rgb(203, 36, 36);
+    transition: 0.4s ease;
+    &:hover{
+        background-color:#FFCB04;
+        color:#000;
+        border: 1px solid #FFCB04;
+    }
+
+}
+/* --------------------------------------- card 1 css end --------------------------- */
+
+/* ---------------------------------------- card 2 ----------------------------  */
+.startersmenu .card2{
+    height:420px;
+    width:250px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border:3px solid #D3D3D3;
+    &:hover{
+        border-color: #FFCB04;
+    }
+    
+}
+.startersmenu .card2 .imgdiv{
+    height:225px;
+    width:248px;
+}
+.startersmenu .card2 .imgdiv img{
+    height:225px;
+    width:235px;
+    margin:5px;
+    border-radius: 10px;;
+}
+.startersmenu  .card2 .contentdiv .headingdiv{
+    height:25px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: medium;
+}
+.startersmenu  .card2 .contentdiv .paradiv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    /* font-weight: 700; */
+    font-size: smaller;
+   
+}
+.startersmenu  .card2 .pricediv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    font-family: poppins;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-weight: 750;
+}
+.startersmenu  .card2 .buttondiv{
+    height:45px;
+    width:120px;
+    /* border:1px solid red; */
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.startersmenu  .card2 .buttondiv button{
+    height:45px;
+    width:120px;
+    border-radius:30px;
+    background-color: rgb(203, 36, 36);
+    color:white;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: 700;
+    border: 1px solid rgb(203, 36, 36);
+    transition: 0.4s ease;
+    &:hover{
+        background-color:#FFCB04;
+        color:#000;
+        border: 1px solid #FFCB04;
+    }
+
+}
+ /* --------------------------------------------- card 3  ----------------------------------  */
+.startersmenu .card3{
+    height:420px;
+    width:250px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border:3px solid #D3D3D3;
+    &:hover{
+        border-color: #FFCB04;
+    }
+    
+}
+.startersmenu .card3 .imgdiv{
+    height:225px;
+    width:248px;
+}
+.startersmenu .card3 .imgdiv img{
+    height:225px;
+    width:235px;
+    margin:5px;
+    border-radius: 10px;;
+}
+.startersmenu  .card3 .contentdiv .headingdiv{
+    height:25px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: medium;
+}
+.startersmenu  .card3 .contentdiv .paradiv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    /* font-weight: 700; */
+    font-size: smaller;
+   
+}
+.startersmenu  .card3 .pricediv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    font-family: poppins;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-weight: 750;
+}
+.startersmenu  .card3 .buttondiv{
+    height:45px;
+    width:120px;
+    /* border:1px solid red; */
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.startersmenu  .card3 .buttondiv button{
+    height:45px;
+    width:120px;
+    border-radius:30px;
+    background-color: rgb(203, 36, 36);
+    color:white;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: 700;
+    border: 1px solid rgb(203, 36, 36);
+    transition: 0.4s ease;
+    &:hover{
+        background-color:#FFCB04;
+        color:#000;
+        border: 1px solid #FFCB04;
+    }
+
+}
+/* ------------------------------------------------ card 4 --------------------------------  */
+.startersmenu .card4{
+    height:420px;
+    width:250px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border:3px solid #D3D3D3;
+    &:hover{
+        border-color: #FFCB04;
+    }
+    
+}
+.startersmenu .card4 .imgdiv{
+    height:225px;
+    width:248px;
+}
+.startersmenu .card4 .imgdiv img{
+    height:225px;
+    width:235px;
+    margin:5px;
+    border-radius: 10px;;
+}
+.startersmenu  .card4 .contentdiv .headingdiv{
+    height:25px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: medium;
+}
+.startersmenu  .card4 .contentdiv .paradiv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    /* font-weight: 700; */
+    font-size: smaller;
+   
+}
+.startersmenu  .card4 .pricediv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    font-family: poppins;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-weight: 750;
+}
+.startersmenu  .card4 .buttondiv{
+    height:45px;
+    width:120px;
+    /* border:1px solid red; */
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.startersmenu  .card4 .buttondiv button{
+    height:45px;
+    width:120px;
+    border-radius:30px;
+    background-color: rgb(203, 36, 36);
+    color:white;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: 700;
+    border: 1px solid rgb(203, 36, 36);
+    transition: 0.4s ease;
+    &:hover{
+        background-color:#FFCB04;
+        color:#000;
+        border: 1px solid #FFCB04;
+    }
+
+}
+ /* ----------------------------------------------- startermunu 2 ----------------------------------  */
+.startersmenu2{
+    height:420px;
+    margin:30px auto;
+    width:1050px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: start;
+    gap:20px;
+
+}
+.startersmenu2 .card1{
+    height:420px;
+    width:250px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border:3px solid #D3D3D3;
+    &:hover{
+        border-color: #FFCB04;
+    }
+    
+}
+.startersmenu2 .card1 .imgdiv{
+    height:225px;
+    width:248px;
+}
+.startersmenu2 .card1 .imgdiv img{
+    height:225px;
+    width:235px;
+    margin:5px;
+    border-radius: 10px;
+}
+.startersmenu2  .card1 .contentdiv .headingdiv{
+    height:25px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: medium;
+}
+.startersmenu2  .card1 .contentdiv .paradiv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    /* font-weight: 700; */
+    font-size: smaller;
+   
+}
+.startersmenu2  .card1 .pricediv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    font-family: poppins;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-weight: 750;
+}
+.startersmenu2  .card1 .buttondiv{
+    height:45px;
+    width:120px;
+    /* border:1px solid red; */
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.startersmenu2  .card1 .buttondiv button{
+    height:45px;
+    width:120px;
+    border-radius:30px;
+    background-color: rgb(203, 36, 36);
+    color:white;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: 700;
+    border: 1px solid rgb(203, 36, 36);
+    transition: 0.4s ease;
+    &:hover{
+        background-color:#FFCB04;
+        color:#000;
+        border: 1px solid #FFCB04;
+    }
+
+}
+
+.startersmenu2 .card2{
+    height:420px;
+    width:250px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border:3px solid #D3D3D3;
+    &:hover{
+        border-color: #FFCB04;
+    }
+    
+}
+.startersmenu2 .card2 .imgdiv{
+    height:225px;
+    width:248px;
+}
+.startersmenu2 .card2 .imgdiv img{
+    height:225px;
+    width:235px;
+    margin:5px;
+    border-radius: 10px;
+}
+.startersmenu2  .card2 .contentdiv .headingdiv{
+    height:25px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: medium;
+}
+.startersmenu2  .card2 .contentdiv .paradiv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    /* font-weight: 700; */
+    font-size: smaller;
+   
+}
+.startersmenu2  .card2 .pricediv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    font-family: poppins;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-weight: 750;
+}
+.startersmenu2  .card2 .buttondiv{
+    height:45px;
+    width:120px;
+    /* border:1px solid red; */
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.startersmenu2  .card2 .buttondiv button{
+    height:45px;
+    width:120px;
+    border-radius:30px;
+    background-color: rgb(203, 36, 36);
+    color:white;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: 700;
+    border: 1px solid rgb(203, 36, 36);
+    transition: 0.4s ease;
+    &:hover{
+        background-color:#FFCB04;
+        color:#000;
+        border: 1px solid #FFCB04;
+    }
+
+}
+
+ /* -------------------------------------- somewhat local heading --------------------------  */
+.somewhatlocalheading{
+    height:50px;
+    width:1050px;
+    margin:40px auto;
+    /* border:2px solid red; */
+    display:flex;
+    align-items:center;
+    font-family: poppins;
+    font-size: x-large;
+    font-weight: 700;
+    margin-top:20px;
+}
+/* --------------------------------------- somewhat local menu -------------------------------  */
+.somewhatlocalmenu{
+    height:410px;
+    margin:10px auto;
+    width:1050px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
+}
+/* --------------------------------------- card 1 css -------------------------- */
+.somewhatlocalmenu .card1{
+    height:420px;
+    width:250px;
+    border:3px solid #D3D3D3;
+    border-radius: 20px;
+    background-color: #ffffff;
+    &:hover{
+        border-color: #FFCB04;
+    }
+    
+}
+.somewhatlocalmenu .card1 .imgdiv{
+    height:225px;
+    width:248px;
+}
+.somewhatlocalmenu .card1 .imgdiv img{
+    height:225px;
+    width:235px;
+    margin:5px;
+    border-radius: 10px;;
+}
+.somewhatlocalmenu  .card1 .contentdiv .headingdiv{
+    height:25px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: medium;
+}
+.somewhatlocalmenu  .card1 .contentdiv .paradiv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    /* font-weight: 700; */
+    font-size: smaller;
+   
+}
+.somewhatlocalmenu  .card1 .pricediv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    font-family: poppins;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-weight: 750;
+}
+.somewhatlocalmenu  .card1 .buttondiv{
+    height:45px;
+    width:120px;
+    /* border:1px solid red; */
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.somewhatlocalmenu  .card1 .buttondiv button{
+    height:45px;
+    width:120px;
+    border-radius:30px;
+    background-color: rgb(203, 36, 36);
+    color:white;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: 700;
+    border: 1px solid rgb(203, 36, 36);
+    transition: 0.4s ease;
+    &:hover{
+        background-color:#FFCB04;
+        color:#000;
+        border: 1px solid #FFCB04;
+    }
+
+}
+/* --------------------------------------- card 1 css end --------------------------- */
+
+/* ---------------------------------------- card 2 ----------------------------  */
+.somewhatlocalmenu .card2{
+    height:420px;
+    width:250px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border:3px solid #D3D3D3;
+    &:hover{
+        border-color: #FFCB04;
+    }
+    
+}
+.somewhatlocalmenu .card2 .imgdiv{
+    height:225px;
+    width:248px;
+}
+.somewhatlocalmenu .card2 .imgdiv img{
+    height:225px;
+    width:235px;
+    margin:5px;
+    border-radius: 10px;;
+}
+.somewhatlocalmenu  .card2 .contentdiv .headingdiv{
+    height:25px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: medium;
+}
+.somewhatlocalmenu  .card2 .contentdiv .paradiv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    /* font-weight: 700; */
+    font-size: smaller;
+   
+}
+.somewhatlocalmenu  .card2 .pricediv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    font-family: poppins;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-weight: 750;
+}
+.somewhatlocalmenu  .card2 .buttondiv{
+    height:45px;
+    width:120px;
+    /* border:1px solid red; */
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.somewhatlocalmenu  .card2 .buttondiv button{
+    height:45px;
+    width:120px;
+    border-radius:30px;
+    background-color: rgb(203, 36, 36);
+    color:white;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: 700;
+    border: 1px solid rgb(203, 36, 36);
+    transition: 0.4s ease;
+    &:hover{
+        background-color:#FFCB04;
+        color:#000;
+        border: 1px solid #FFCB04;
+    }
+
+}
+ /* --------------------------------------------- card 3  ----------------------------------  */
+.somewhatlocalmenu .card3{
+    height:420px;
+    width:250px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border:3px solid #D3D3D3;
+    &:hover{
+        border-color: #FFCB04;
+    }
+    
+}
+.somewhatlocalmenu .card3 .imgdiv{
+    height:225px;
+    width:248px;
+}
+.somewhatlocalmenu .card3 .imgdiv img{
+    height:225px;
+    width:235px;
+    margin:5px;
+    border-radius: 10px;;
+}
+.somewhatlocalmenu  .card3 .contentdiv .headingdiv{
+    height:25px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: medium;
+}
+.somewhatlocalmenu  .card3 .contentdiv .paradiv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    /* font-weight: 700; */
+    font-size: smaller;
+   
+}
+.somewhatlocalmenu  .card3 .pricediv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    font-family: poppins;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-weight: 750;
+}
+.somewhatlocalmenu  .card3 .buttondiv{
+    height:45px;
+    width:120px;
+    /* border:1px solid red; */
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.somewhatlocalmenu  .card3 .buttondiv button{
+    height:45px;
+    width:120px;
+    border-radius:30px;
+    background-color: rgb(203, 36, 36);
+    color:white;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: 700;
+    border: 1px solid rgb(203, 36, 36);
+    transition: 0.4s ease;
+    &:hover{
+        background-color:#FFCB04;
+        color:#000;
+        border: 1px solid #FFCB04;
+    }
+
+}
+/* ------------------------------------------------ card 4 --------------------------------  */
+.somewhatlocalmenu .card4{
+    height:420px;
+    width:250px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border:3px solid #D3D3D3;
+    &:hover{
+        border-color: #FFCB04;
+    }
+    
+}
+.somewhatlocalmenu .card4 .imgdiv{
+    height:225px;
+    width:248px;
+}
+.somewhatlocalmenu .card4 .imgdiv img{
+    height:225px;
+    width:235px;
+    margin:5px;
+    border-radius: 10px;;
+}
+.somewhatlocalmenu  .card4 .contentdiv .headingdiv{
+    height:25px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: medium;
+}
+.somewhatlocalmenu  .card4 .contentdiv .paradiv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    /* font-weight: 700; */
+    font-size: smaller;
+   
+}
+.somewhatlocalmenu  .card4 .pricediv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    font-family: poppins;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-weight: 750;
+}
+.somewhatlocalmenu  .card4 .buttondiv{
+    height:45px;
+    width:120px;
+    /* border:1px solid red; */
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.somewhatlocalmenu  .card4 .buttondiv button{
+    height:45px;
+    width:120px;
+    border-radius:30px;
+    background-color: rgb(203, 36, 36);
+    color:white;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: 700;
+    border: 1px solid rgb(203, 36, 36);
+    transition: 0.4s ease;
+    &:hover{
+        background-color:#FFCB04;
+        color:#000;
+        border: 1px solid #FFCB04;
+    }
+
+}
+/* ---------------------------------- somewhatlocalmenu end -----------------------  */
+
+
+.somewhatlocalmenu2{
+    height:420px;
+    margin:30px auto;
+    width:1050px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: start;
+    gap:20px;
+
+}
+.somewhatlocalmenu2 .card1{
+    height:420px;
+    width:250px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border:3px solid #D3D3D3;
+    &:hover{
+        border-color: #FFCB04;
+    }
+    
+}
+.somewhatlocalmenu2 .card1 .imgdiv{
+    height:225px;
+    width:248px;
+}
+.somewhatlocalmenu2 .card1 .imgdiv img{
+    height:225px;
+    width:235px;
+    margin:5px;
+    border-radius: 10px;
+}
+.somewhatlocalmenu2  .card1 .contentdiv .headingdiv{
+    height:25px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: medium;
+}
+.somewhatlocalmenu2  .card1 .contentdiv .paradiv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    /* font-weight: 700; */
+    font-size: smaller;
+   
+}
+.somewhatlocalmenu2  .card1 .pricediv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    font-family: poppins;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-weight: 750;
+}
+.somewhatlocalmenu2  .card1 .buttondiv{
+    height:45px;
+    width:120px;
+    /* border:1px solid red; */
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.somewhatlocalmenu2  .card1 .buttondiv button{
+    height:45px;
+    width:120px;
+    border-radius:30px;
+    background-color: rgb(203, 36, 36);
+    color:white;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: 700;
+    border: 1px solid rgb(203, 36, 36);
+    transition: 0.4s ease;
+    &:hover{
+        background-color:#FFCB04;
+        color:#000;
+        border: 1px solid #FFCB04;
+    }
+
+}
+
+.somewhatlocalmenu2 .card2{
+    height:420px;
+    width:250px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border:3px solid #D3D3D3;
+    &:hover{
+        border-color: #FFCB04;
+    }
+    
+}
+.somewhatlocalmenu2 .card2 .imgdiv{
+    height:225px;
+    width:248px;
+}
+.somewhatlocalmenu2 .card2 .imgdiv img{
+    height:225px;
+    width:235px;
+    margin:5px;
+    border-radius: 10px;
+}
+.somewhatlocalmenu2  .card2 .contentdiv .headingdiv{
+    height:25px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: medium;
+}
+.somewhatlocalmenu2  .card2 .contentdiv .paradiv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    margin-top:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    /* font-weight: 700; */
+    font-size: smaller;
+   
+}
+.somewhatlocalmenu2  .card2 .pricediv{
+    height:40px;
+    width:248px;
+    /* border:1px solid red; */
+    font-family: poppins;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-weight: 750;
+}
+.somewhatlocalmenu2  .card2 .buttondiv{
+    height:45px;
+    width:120px;
+    /* border:1px solid red; */
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+}
+.somewhatlocalmenu2  .card2 .buttondiv button{
+    height:45px;
+    width:120px;
+    border-radius:30px;
+    background-color: rgb(203, 36, 36);
+    color:white;
+    font-family: poppins;
+    font-size: medium;
+    font-weight: 700;
+    border: 1px solid rgb(203, 36, 36);
+    transition: 0.4s ease;
+    &:hover{
+        background-color:#FFCB04;
+        color:#000;
+        border: 1px solid #FFCB04;
+    }
+
+}
+.Acccordiandiv{
+    background-color: #FFCB04;
+    border-radius: 40px;
+    height:500px;
+    width:1050px;;
+    /* border:3px solid red; */
+    margin:70px auto ;
+    padding:50px;
+    padding-top:50px
+    
+   
+}
+.Acccordiandiv .spreadingcheezy{
+    height:100px;
+    width:900px;
+    /* border:1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
+    font-family: poppins;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.accordion-item{
+    background-color: #000;
+    color: white;
+    border:none;
+    font-weight: lighter;
+}
+.accordion-button{
+    font-family: poppins;
+    background-color: #665102;
+    color:white;
+    font-weight: 700;
+    font-size: medium;
+}
